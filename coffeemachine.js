@@ -36,7 +36,7 @@ class Coffeemachine {
       throw new Error(
         "Den Kaffee " +
           this.coffeeChoice +
-          " gibt es nicht. Schau auf die Button man!"
+          " gibt es nicht. Schau auf die Buttons man, da stehen alle drauf, die es gibt!"
       );
     }
 
