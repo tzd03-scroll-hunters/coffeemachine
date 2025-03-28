@@ -70,7 +70,7 @@ const coffeemachine = new Coffeemachine(coffees);
 
 // INPUT (kommt normalerweise aus einer UI => z.B. INPUT Feldern aus HTML Formular)
 coffeemachine.coffeeChoice = "Espresso";
-coffeemachine.geld = 0.5;
+coffeemachine.geld = 0.5; // hier wird in Klasse die setter function aufgerufen (set geld) => Vorteil: Input kann validiert werden, bevor Klasse ihn accepted!
 
 // KAUFE DEN SH*T! 
 // Klassen Method wird normalerweise in UI durch einen BUTTON Klick getriggert oder einen FORM SUBMIT
